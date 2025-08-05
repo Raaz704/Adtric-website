@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#header {
+    background-image: url(adtric\ banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+
+
+
+    padding: 40px 100px;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#cont1 {
+    width: 30%;
+
+}
+
+#cont1 img {
+    width: 150px;
+}
+
+#cont2 {
+    width: 40%;
+    /* padding-top: 20px; */
+}
+
+#cont2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#cont2 ul li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+#cont3 {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.btn {
+    border: 2px solid yellow;
+    background: transparent;
+    color: white;
+    padding: 13px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#cont4 {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+#cont4 p {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+
+#cont5 {
+    padding: 0px 200px;
+    padding-bottom: 100px;
+}
+
+#cont5 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+}
+
+/* header close  */
+
+/* middle section 1 start  */
+
+#cont6 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px;
+}
+
+#cont7 {
+    width: 50%;
+    padding-top: 80px;
+
+}
+
+#cont7 h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: rgb(45, 45, 45);
+    line-height: 60px;
+    word-spacing: 0px;
+
+}
+
+#cont_p {
+    width: 90%;
+    padding-top: 30px;
+}
+
+#cont7 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    color: rgb(45, 45, 45);
+}
+
+#cont8 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* middle section 1 close  */
+
+/* middle sectoion 2 start  */
+
+#cont9 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+
+}
+
+#cont10 {
+    padding: 35px 70px;
+}
+
+#cont10 h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(45, 45, 45);
+}
+
+#cont11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.cont12 {
+    width: 16%;
+    border: 1px solid black;
+    height: 50vh;
+    border-radius: 30px;
+    background-color: #0000ff;
+    padding: 10px;
+
+
+}
+
+.cont12:hover {
+    background: linear-gradient(135deg, #000000, #434343);
+
+}
+
+.cont12 img {
+    padding: 29px 6px;
+}
+
+.cont12 h1 {
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0px 14px;
+}
+
+.cont12 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+    padding: 24px 14px;
+
+
+}
+
+/* middle section 2 close  */
+
+
+/* middle section 3 start  */
+
+#cont13 {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 30px;
+
+}
+
+#cont14 {
+    width: 40%;
+    padding: 35px 70px;
+
+
+}
+
+#cont14 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    padding-bottom: 25px;
+}
+
+#cont15 {
+    width: 60%;
+    padding: 35px 70px;
+
+}
+
+#cont15 p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    color:
+        rgb(45, 45, 45);
+}
+
+#para {
+    padding-top: 30px;
+}
+
+/* <!-- middle section 3 close  --> */
+
+footer {
+    background-image: url(https://adtric.com/wp-content/uploads/2025/01/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+
+
+}
+
+#footer_section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+
+}
+
+#cont16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cont16 img {
+    height: 19vh;
+    width: 22%;
+}
+
+#cont17 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont18 {
+    width: 33%;
+    padding: 30px;
+}
+
+.cont18 h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px;
+    color: white;
+}
+
+.cont18 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+    padding-top: 20px;
+}
+
+.cont18 .para2 {
+    font-size: 16px;
+}
+
+#h1 {
+    padding-top: 30px;
+}
+
+.span {
+    border-right: 1px solid white;
+}
+
+#cont19 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+#cont19 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: white;
+
+}
+
+
+
+
+
+/* for responsive  */
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 35px;
+    height: 30px;
+    justify-content: center;
+}
+
+.hamburger span {
+    background: yellow;
+    height: 4px;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.4s;
+    display: block;
+}
+
+/* Main responsive queries below */
+@media(max-width: 1200px) {
+
+    #header,
+    #cont6,
+    #footer_section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #cont4 {
+        padding: 40px 10px;
+    }
+
+    #cont5 {
+        padding: 0 40px 80px 40px;
+    }
+
+    #cont13 {
+        padding: 35px 10px;
+    }
+}
+
+@media(max-width: 900px) {
+    #main-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #cont1,
+    #cont2,
+    #cont3 {
+        width: auto;
+        min-width: unset;
+    }
+
+    #cont2 ul {
+        gap: 20px;
+    }
+
+    #cont6,
+    #footer_section {
+        flex-direction: column;
+        padding: 40px 5vw;
+    }
+
+    #cont7,
+    #cont8 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #cont7 {
+        padding-top: 20px;
+    }
+
+    #cont8 {
+        margin-top: 30px;
+    }
+
+    #cont11 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .cont12 {
+        width: 45%;
+        min-width: 220px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #cont17 {
+        flex-direction: column;
+    }
+
+    .cont18 {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #cont15,
+    #cont14 {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    #main-section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #header {
+        padding: 20px 4vw;
+        min-height: unset;
+    }
+
+    #cont4 p {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    #cont5 {
+        padding: 0 15px 40px 15px;
+    }
+
+    #cont6 {
+        flex-direction: column;
+        padding: 30px 5vw;
+    }
+
+    #cont7 h1,
+    #cont10 h1,
+    #cont14 h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    #cont7,
+    #cont8,
+    #cont15,
+    #cont14 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #cont8 img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    #cont11 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cont12 {
+        width: 90%;
+        min-width: unset;
+        height: auto;
+    }
+    #cont13{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        display: none;
+    }
+
+    #footer_section,
+    #cont19 {
+        padding: 15px 2vw;
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    #cont16 img {
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+
+    #cont17 {
+        padding: 10px 0;
+    }
+
+    #cont19 {
+        padding: 20px 4vw;
+        flex-direction: column !important;
+        gap: 8px;
+    }
+
+    /* Hamburger button visible on small screens */
+    .hamburger {
+        display: flex;
+    }
+
+    #cont2 ul {
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        background: #030361;
+        z-index: 101;
+        transition: top 0.3s;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
+        display: none;
+        gap: 0px;
+    }
+
+    #cont2 ul.active {
+        display: flex;
+    }
+
+    #cont2 ul li {
+        color: white;
+        text-align: center;
+        line-height: 45px;
+        font-size: 22px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    }
+
+    .btn {
+        border: 2px solid yellow;
+        background: transparent;
+        color: white;
+        padding: 13px 10px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
